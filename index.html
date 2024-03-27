@@ -22,7 +22,7 @@
 
 <body>
     <div class="text-center p-4" id="app">
-        <div :class="mrClass"  @click="changeFont">{{ message }}</div>
+        <h2 :class="mrClass"  @click="changeFont">{{ message }}</h2>
         <button type="button" class="btn btn-danger m-4 " @click="generatorImg">Sei sicuro?</button>
         <img v-if="image" :src="image" :alt="altImage">
     </div>

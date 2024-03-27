@@ -19,3 +19,6 @@ img {
     border-radius: 20px;
     display: block;
 }
+h2 {
+    cursor: pointer;
+}
