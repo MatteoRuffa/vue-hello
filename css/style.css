@@ -4,6 +4,10 @@ body {
     font-style: normal;
 }
 
-.mr-font {
-    font-size: 50px!important;
+.mr-font1 {
+    font-size: 50px;
+}
+.mr-font2 {
+    font-size: 100px;
+    font-weight: 500;
 }
