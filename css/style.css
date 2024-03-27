@@ -11,3 +11,8 @@ body {
     font-size: 100px;
     font-weight: 500;
 }
+img {
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 20px;
+}

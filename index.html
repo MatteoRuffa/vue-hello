@@ -21,8 +21,10 @@
 </head>
 
 <body>
-    <div id="app">
-        <div :class="mrClass" class="text-center" @click="changeFont">{{ message }}</div>
+    <div class="text-center p-4" id="app">
+        <div :class="mrClass"  @click="changeFont">{{ message }}</div>
+        <button type="button" class="btn btn-danger m-4 " @click="generatorImg">Sei sicuro?</button>
+        <img class="d-block" v-if="image" :src="image" :alt="altImage">
     </div>
 
     
